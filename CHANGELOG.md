@@ -1,5 +1,8 @@
 # Changelog
 
+- ***v1.0.2:***
+     - Fixed: with BetterShotgun (or another mod that already puts the shotgun or the shell in the store or as scrap) installed, ShotgunPlus stopped while registering its items, so More Shotgun Shells had no shells. What's already registered is kept now and the rest still happens
+     - BetterShotgun and ShotgunPlus together: ShotgunPlus turns off BetterShotgun's shotgun patches (both would change the same shot, so every shot fired twice) and says so in the log. You can remove BetterShotgun
 - ***v1.0.1:***
      - Fixed: other players couldn't see shells found as scrap, and after you picked one up their game lost track of what you were holding (your shotgun looked invisible to them). The shotgun and shell items are now added to the network list on the main menu, before anyone hosts or joins
 - ***v1.0.0:***

@@ -37,6 +37,11 @@ Want Slug, Bird, Magnum and Dragon shells? Get the add-on **[More Shotgun Shells
 
 Store, scrap, fire mode and enemy damage settings follow the host. Visuals are your own.
 
+## COMPATIBILITY 🔧
+- **Replaces BetterShotgun** (Hypick's and Hexicube's). If one is installed too, ShotgunPlus turns off its shotgun patches and tells you in the log; you can remove it
+- Works with AdditionalNetworking, ButteryFixes, QualityCompany and AdvancedCompany (Save Loot keeps bought shotguns)
+- Mods that change the vanilla shot or reload code (Lategame Upgrades, MeleeFixes) have no effect on the shotgun, because ShotgunPlus does the shot and the reload itself
+
 ## CREDITS 💛
 - **Hexicube** ([BetterShotgun](https://github.com/Hexicube/BetterShotgun), MIT) and **Entity378** ([HexiBetterShotgunFixed](https://thunderstore.io/c/lethal-company/p/Entity378/HexiBetterShotgunFixed/)): the pellet idea, spread and damage
 - **Hypick** ([BetterShotgun](https://thunderstore.io/c/lethal-company/p/Hypick/BetterShotgun/), MIT): reload key, ammo display, store and scrap registration
